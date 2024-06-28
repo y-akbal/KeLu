@@ -13,6 +13,7 @@ It has continuous derivative at 0, while its third derivative has singularities 
 Both Jax and Flux directories include implementation of the papers with respective abbreviations:
 
 <li> Patches are all you need --- P</li>
+<li> ResNet20 --- R20 P</li>
 <li> GPT2 --- GPT2 </li>
 
 All the above models are trained with standard augmentation techniques (See SdP Repo).
