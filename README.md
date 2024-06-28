@@ -40,6 +40,14 @@ All the above models are trained with standard augmentation techniques (See SdP 
 Note: For 150 epoch training, I am not able to reproduce the aforementioned results in "Patches are all you need article" for CIFAR10.
 This is probably due to penalization methods.
 
+# ImageNet1K (64x64) (R20) (Need to retrain these two one more time!)
+
+| #Act.  |  Acc    | Loss     | 
+| :---:  | :-----: | :-----:  | 
+|  Gelu  |  78.04% |  1.083   | 
+|  KeLu  |  78.53  |  1.043   | 
+
+
 # XXS GPT2 (Character Based- Being trained on 100MB Text of Newspaper articles)
 
 |  #Params  | Embed_Dim| #Heads   |  #Blocks  |  KeLu - Val. Loss | gelu - Val. Loss| 
