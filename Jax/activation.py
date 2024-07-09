@@ -6,7 +6,7 @@ from jax._src.numpy import util as numpy_util
 from jax._src.typing import Array, ArrayLike
 from jax import lax
 from functools import partial
-
+   
 
 @partial(jit, static_argnums = 1)
 def KeLu(x_: ArrayLike, a:float = 3.5) -> Array:
